@@ -22,7 +22,7 @@ int main (void) {
     // or more precise this is addresses in the heap.
     // How do we know it is small? 
     // This code is ran on macbook M1, a 64-bit machine => the highest address is 0xffffffffffffffff
-    // And the lowest is 0x00. => so 0xfffffff is low compared to the highest address
+    // And the lowest is 0x0. => so 0xfffffff is low compared to the highest address
       
     return (EXIT_SUCCESS);
   }
