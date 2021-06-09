@@ -1,2 +1,6 @@
-test1:
-	gcc -Wall -Wextra -pedantic -Werror test1.c -o test1 
+b: 
+	gcc -g -Wall -Wextra -pedantic -Werror $(f).c -o $(f).out 
+
+br: 
+	make b f=$(f)
+	./$(f).out
